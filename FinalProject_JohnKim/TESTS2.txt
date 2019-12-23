@@ -1,0 +1,181 @@
+have point self very important success special final script writing like
+setup quick self poor important success special final script writing free
+
+
+NOTE: The list above can be used to to run:
+ 
+	"python(or python3) cosine_similarity.py TESTS.txt
+
+If you would like to try the test cases out, please delete everything below this.  The program takes the list and uses a loop to iterate through each word, calling the functions to calculate cosine similarity.  Each word in the list is used to calculate cosine similarity with each word in the LSA matrix to find the highest value.  
+
+I am not sure if it is because of the source and nature/substance of the documents, but the words the program found most similar had nothing to do with the input words.  I have tried other words, but for every word that I have tried, none of the words calculated to be similar were actually related to the input word.
+
+Also, with every new attempt, it would give me slight variations of words (a new word appears, or a word is omitted).  I am not sure why since the calculations shouldn't and wouldn't change.
+
+TEST CASES:
+
+Johns-MBP:FinalProject_JohnKim image$ python cosine_similarity.py TESTS.txt
+
+Building data of words, please wait. Sorry about the wait.
+
+Finding word(s) most similar to: have.
+Please wait....
+The top 5 related words to have are: 
+1 : and
+2 : is
+3 : the
+4 : of
+5 : No more words are available
+
+Finding word(s) most similar to: this.
+Please wait....
+The top 1 related words to this are: 
+1 : No more words are available
+
+Finding word(s) most similar to: self.
+Please wait....
+The top 4 related words to self are: 
+1 : quarter
+2 : reliable
+3 : vary
+4 : No more words are available
+
+Finding word(s) most similar to: very.
+Please wait....
+The top 4 related words to very are: 
+1 : faster
+2 : the
+3 : purchase
+4 : No more words are available
+
+Finding word(s) most similar to: important.
+Please wait....
+The top 3 related words to important are: 
+1 : minimize
+2 : reducing
+3 : No more words are available
+
+Finding word(s) most similar to: success.
+Please wait....
+The top 3 related words to success are: 
+1 : mapper
+2 : finch
+3 : No more words are available
+
+Finding word(s) most similar to: special.
+Please wait....
+The top 3 related words to special are: 
+1 : factory
+2 : obtain
+3 : No more words are available
+
+Finding word(s) most similar to: final.
+Please wait....
+The top 2 related words to final are: 
+1 : step
+2 : No more words are available
+
+Finding word(s) most similar to: script.
+Please wait....
+The top 3 related words to script are: 
+1 : unload
+2 : establish
+3 : No more words are available
+
+Finding word(s) most similar to: writing.
+Please wait....
+The top 1 related words to writing are: 
+1 : No more words are available
+
+Finding word(s) most similar to: like.
+Please wait....
+The top 4 related words to like are: 
+1 : for
+2 : is
+3 : of
+4 : No more words are available
+
+Johns-MBP:FinalProject_JohnKim image$ 
+
+***********************ROUND 2****************************
+
+Johns-MBP:FinalProject_JohnKim image$ python cosine_similarity.py TESTS.txt
+
+Building data of words, please wait. Sorry about the wait.
+
+Finding word(s) most similar to: have.
+Please wait....
+The top 2 related words to have are: 
+1 : and
+2 : No more words are available
+
+Finding word(s) most similar to: point.
+Please wait....
+The top 2 related words to point are: 
+1 : contain
+2 : No more words are available
+
+Finding word(s) most similar to: self.
+Please wait....
+The top 2 related words to self are: 
+1 : quarter
+2 : No more words are available
+
+Finding word(s) most similar to: very.
+Please wait....
+The top 2 related words to very are: 
+1 : faster
+2 : No more words are available
+
+Finding word(s) most similar to: important.
+Please wait....
+The top 1 related words to important are: 
+1 : No more words are available
+
+Finding word(s) most similar to: success.
+Please wait....
+The top 2 related words to success are: 
+1 : mapper
+2 : No more words are available
+
+Finding word(s) most similar to: special.
+Please wait....
+The top 5 related words to special are: 
+1 : factory
+2 : obtain
+3 : battery
+4 : manufacturer
+5 : No more words are available
+
+Finding word(s) most similar to: final.
+Please wait....
+The top 4 related words to final are: 
+1 : step
+2 : configuration
+3 : setup
+4 : No more words are available
+
+Finding word(s) most similar to: script.
+Please wait....
+The top 4 related words to script are: 
+1 : unload
+2 : establish
+3 : hack
+4 : No more words are available
+
+Finding word(s) most similar to: writing.
+Please wait....
+The top 3 related words to writing are: 
+1 : aware
+2 : exit
+3 : No more words are available
+
+Finding word(s) most similar to: like.
+Please wait....
+The top 4 related words to like are: 
+1 : for
+2 : is
+3 : of
+4 : No more words are available
+
+Johns-MBP:FinalProject_JohnKim image$ 
